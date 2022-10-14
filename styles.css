@@ -1,0 +1,106 @@
+.navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-brand {
+    font-family: 'Lucida Console',monospace;; 
+    color: white !important; 
+    font-size: 30px;
+    margin-left: 2%;
+  }
+  
+  #navbarNav .nav-link {
+    color: white !important;
+  }
+  
+  #navbarNav {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  span {
+    color: white !important;
+  }
+  
+  nav a:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 6px 0; 
+  }
+  
+  nav {
+      background-color: #d60b18;
+  }
+  
+  body {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      flex-grow: 1;
+      background-color: #F5F5F5;
+  }    
+  
+  .page-content {
+    display: flex;
+    padding-top: 5%;
+  }
+  
+  h4 {
+    background-color: #05336b;
+    color: white;
+    padding: 0.5%;
+  }
+  
+  h6 {
+    text-align: center;
+  }
+  
+  #temps {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #temps > div {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  
+  footer {
+    position: relative;
+    background-color: #d60b18;
+  }
+
+  #search {
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  #heading {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #flag {
+    display: flex;
+    justify-content: center;
+  }
+
+  #country {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
+  }
+
+  #holidays {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
